@@ -133,6 +133,23 @@ body {
     margin-right: .5em;
 }
 
+.contact-image {
+    float: right;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.contact-container {
+    width:70%;
+    display:table;
+    margin:auto;
+    padding-top: 50px;
+}
+
 /*
 Allow only mouse hover events for the element.
 !important is required to override Bootstrap .disabled class matches
